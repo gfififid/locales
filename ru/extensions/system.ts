@@ -1239,7 +1239,7 @@ Are you sure to disable the unlock button?</source>
     <message>
         <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="49"/>
         <source>Passthrough</source>
-        <translation>Сквозь</translation>
+        <translation>Проходит сквозь</translation>
     </message>
     <message>
         <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="56"/>
@@ -1264,12 +1264,12 @@ Are you sure to disable the unlock button?</source>
     <message>
         <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="84"/>
         <source>Always Hide</source>
-        <translation>Всегда скрыт</translation>
+        <translation>Всегда скрыта</translation>
     </message>
     <message>
         <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="93"/>
         <source>Display on</source>
-        <translation>Экран вкл.</translation>
+        <translation>Показывать на</translation>
     </message>
     <message>
         <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="96"/>
@@ -1284,7 +1284,7 @@ Are you sure to disable the unlock button?</source>
     <message>
         <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="120"/>
         <source>Anchor to</source>
-        <translation>Привязать к</translation>
+        <translation>Привязка</translation>
     </message>
     <message>
         <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="157"/>
