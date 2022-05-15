@@ -1360,6 +1360,45 @@ Are you sure to disable the unlock button?</source>
     </message>
 </context>
 <context>
+    <name>SoundAction</name>
+    <message>
+        <source>Path</source>
+        <translation>Путь</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Тип</translation>
+    </message>
+    <message>
+        <source>Audio File</source>
+        <translation>Аудио файл</translation>
+    </message>
+    <message>
+        <source>Sound Effect</source>
+        <translation>Звуковой эффект</translation>
+    </message>
+    <message>
+        <source>Sound Action</source>
+        <translation>Звуковые действия</translation>
+    </message>
+    <message>
+        <source>Wave files (*.WAV)</source>
+        <translation>Звуковые файлы (*.WAV)</translation>
+    </message>
+    <message>
+        <source>Play sound effect or audio file</source>
+        <translation>Проиграть звуковой эффект или аудио файл</translation>
+    </message>
+    <message>
+        <source>Sound Event</source>
+        <translation>Звуковое событие</translation>
+    </message>
+    <message>
+        <source>Playback Audio</source>
+        <translation>Воспроизведение аудио</translation>
+    </message>
+</context>
+<context>
     <name>utils</name>
     <message>
         <location filename="../../../src/extensions/system/qml/system/action/utils.js" line="7"/>
