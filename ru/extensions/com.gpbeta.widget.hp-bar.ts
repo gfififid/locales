@@ -69,12 +69,12 @@
     <message>
         <location filename="../../../bin/Packages/com.gpbeta.widget.hp-bar/qml/HPBarWidget.qml" line="16"/>
         <source>HP-Bar</source>
-        <translation>Полоска-HP</translation>
+        <translation>Полоса-HP</translation>
     </message>
     <message>
         <location filename="../../../bin/Packages/com.gpbeta.widget.hp-bar/qml/HPBarWidget.qml" line="26"/>
         <source>Editing Mode...</source>
-        <translation>Режим редактирования...</translation>
+        <translation>Редактировать...</translation>
     </message>
     <message>
         <location filename="../../../bin/Packages/com.gpbeta.widget.hp-bar/qml/HPBarWidget.qml" line="57"/>
