@@ -502,8 +502,8 @@ please exit the program and wait for Steam client to apply the updates.)</source
     <name>NetworkValue</name>
     <message>
         <location filename="../../../src/extensions/system/qml/system/data/NetworkValue.qml" line="52"/>
-        <source>Bandwith (Mbps)</source>
-        <translation>Пропускная способность （Mbps）</translation>
+        <source>Maximum Speed (MB/S)</source>
+        <translation>Максимальная скорость (MB/S)</translation>
     </message>
     <message>
         <location filename="../../../src/extensions/system/qml/system/data/NetworkValue.qml" line="61"/>
@@ -525,39 +525,39 @@ please exit the program and wait for Steam client to apply the updates.)</source
     </message>
     <message>
         <location filename="../../../src/extensions/system/qml/system/action/OpenAction.qml" line="15"/>
-        <location filename="../../../src/extensions/system/qml/system/action/OpenAction.qml" line="69"/>
+        <location filename="../../../src/extensions/system/qml/system/action/OpenAction.qml" line="72"/>
         <source>Open File</source>
         <translation>Открыть файл</translation>
     </message>
     <message>
         <location filename="../../../src/extensions/system/qml/system/action/OpenAction.qml" line="16"/>
-        <location filename="../../../src/extensions/system/qml/system/action/OpenAction.qml" line="81"/>
+        <location filename="../../../src/extensions/system/qml/system/action/OpenAction.qml" line="84"/>
         <source>Open Folder</source>
         <translation>Открыть папку</translation>
     </message>
     <message>
         <location filename="../../../src/extensions/system/qml/system/action/OpenAction.qml" line="17"/>
-        <location filename="../../../src/extensions/system/qml/system/action/OpenAction.qml" line="87"/>
+        <location filename="../../../src/extensions/system/qml/system/action/OpenAction.qml" line="90"/>
         <source>Open Link</source>
         <translation>Открыть ссылку</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/action/OpenAction.qml" line="61"/>
+        <location filename="../../../src/extensions/system/qml/system/action/OpenAction.qml" line="64"/>
         <source>Type</source>
         <translation>Тип</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/action/OpenAction.qml" line="62"/>
+        <location filename="../../../src/extensions/system/qml/system/action/OpenAction.qml" line="65"/>
         <source>File</source>
         <translation>Файл</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/action/OpenAction.qml" line="62"/>
+        <location filename="../../../src/extensions/system/qml/system/action/OpenAction.qml" line="65"/>
         <source>Folder</source>
         <translation>Папка</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/action/OpenAction.qml" line="62"/>
+        <location filename="../../../src/extensions/system/qml/system/action/OpenAction.qml" line="65"/>
         <source>Link</source>
         <translation>Ссылка</translation>
     </message>
@@ -787,6 +787,55 @@ Input.output: Function(), вывод по умолчанию для значен
         <source>Historical Average</source>
         <translatorcomment>Хз как адекватно перевести</translatorcomment>
         <translation>Среднее историческое значение</translation>
+    </message>
+</context>
+<context>
+    <name>SoundAction</name>
+    <message>
+        <location filename="../../../src/extensions/system/qml/system/action/SoundAction.qml" line="25"/>
+        <source>Sound Action</source>
+        <translation>Звуковые действия</translation>
+    </message>
+    <message>
+        <location filename="../../../src/extensions/system/qml/system/action/SoundAction.qml" line="26"/>
+        <source>Play sound effect or audio file</source>
+        <translation>Проиграть звуковой эффект или аудио файл</translation>
+    </message>
+    <message>
+        <location filename="../../../src/extensions/system/qml/system/action/SoundAction.qml" line="30"/>
+        <source>Playback Audio</source>
+        <translation>Воспроизведение аудио</translation>
+    </message>
+    <message>
+        <location filename="../../../src/extensions/system/qml/system/action/SoundAction.qml" line="32"/>
+        <location filename="../../../src/extensions/system/qml/system/action/SoundAction.qml" line="57"/>
+        <source>Sound Effect</source>
+        <translation>Звуковой эффект</translation>
+    </message>
+    <message>
+        <location filename="../../../src/extensions/system/qml/system/action/SoundAction.qml" line="51"/>
+        <source>Type</source>
+        <translation>Тип</translation>
+    </message>
+    <message>
+        <location filename="../../../src/extensions/system/qml/system/action/SoundAction.qml" line="52"/>
+        <source>Sound Event</source>
+        <translation>Звуковое событие</translation>
+    </message>
+    <message>
+        <location filename="../../../src/extensions/system/qml/system/action/SoundAction.qml" line="52"/>
+        <source>Audio File</source>
+        <translation>Аудио файл</translation>
+    </message>
+    <message>
+        <location filename="../../../src/extensions/system/qml/system/action/SoundAction.qml" line="76"/>
+        <source>Path</source>
+        <translation>Путь</translation>
+    </message>
+    <message>
+        <location filename="../../../src/extensions/system/qml/system/action/SoundAction.qml" line="79"/>
+        <source>Wave files (*.WAV)</source>
+        <translation>Звуковые файлы (*.WAV)</translation>
     </message>
 </context>
 <context>
@@ -1219,7 +1268,7 @@ Are you sure to disable the unlock button?</source>
         <translation>Абсолютная позиция</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/WidgetManager.qml" line="332"/>
+        <location filename="../../../src/extensions/system/qml/system/WidgetManager.qml" line="336"/>
         <source>Are you sure to remove this widget?</source>
         <translation>Вы уверены, что хотите удалить этот виджет?</translation>
     </message>
@@ -1232,82 +1281,82 @@ Are you sure to disable the unlock button?</source>
         <translation>Всегда сверху</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="46"/>
+        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="49"/>
         <source>Mouse Click</source>
         <translation>Клик мыши</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="49"/>
+        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="52"/>
         <source>Passthrough</source>
         <translation>Проходит сквозь</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="56"/>
+        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="59"/>
         <source>Activate Focus</source>
         <translation>Фокус</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="65"/>
+        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="68"/>
         <source>Widget Frame</source>
         <translation>Рамка виджета</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="68"/>
+        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="71"/>
         <source>Auto Hide</source>
         <translation>Авто скрытие</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="76"/>
+        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="79"/>
         <source>Always Show</source>
         <translation>Всегда показывать</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="84"/>
+        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="87"/>
         <source>Always Hide</source>
         <translation>Всегда скрыта</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="93"/>
+        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="96"/>
         <source>Display on</source>
         <translation>Показывать на</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="96"/>
+        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="99"/>
         <source>Desktop</source>
         <translation>Рабочий стол</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="107"/>
+        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="110"/>
         <source>Launcher</source>
         <translation>Лаунчер</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="120"/>
+        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="123"/>
         <source>Anchor to</source>
         <translation>Привязка</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="157"/>
+        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="160"/>
         <source>Customize...</source>
         <translation>Настроить...</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="166"/>
+        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="169"/>
         <source>Reset</source>
         <translation>Сбросить</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="174"/>
+        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="180"/>
         <source>Opacity</source>
         <translation>Непрозрачность</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="194"/>
+        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="200"/>
         <source>Manage Widgets...</source>
         <translation>Все виджеты...</translation>
     </message>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="199"/>
+        <location filename="../../../src/extensions/system/qml/system/widget/WidgetMenu.qml" line="205"/>
         <source>Remove Widget</source>
         <translation>Удалить виджет</translation>
     </message>
@@ -1346,7 +1395,7 @@ Are you sure to disable the unlock button?</source>
 <context>
     <name>WidgetView</name>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/widget/WidgetView.qml" line="327"/>
+        <location filename="../../../src/extensions/system/qml/system/widget/WidgetView.qml" line="329"/>
         <source>Unknown Widget</source>
         <translation>Неизвестный виджет</translation>
     </message>
@@ -1354,48 +1403,9 @@ Are you sure to disable the unlock button?</source>
 <context>
     <name>module</name>
     <message>
-        <location filename="../../../src/extensions/system/qml/system/module.qml" line="231"/>
+        <location filename="../../../src/extensions/system/qml/system/module.qml" line="237"/>
         <source>SAO Utils Started Successfully.</source>
         <translation>SAO Utils успешно запущен.</translation>
-    </message>
-</context>
-<context>
-    <name>SoundAction</name>
-    <message>
-        <source>Path</source>
-        <translation>Путь</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation>Тип</translation>
-    </message>
-    <message>
-        <source>Audio File</source>
-        <translation>Аудио файл</translation>
-    </message>
-    <message>
-        <source>Sound Effect</source>
-        <translation>Звуковой эффект</translation>
-    </message>
-    <message>
-        <source>Sound Action</source>
-        <translation>Звуковые действия</translation>
-    </message>
-    <message>
-        <source>Wave files (*.WAV)</source>
-        <translation>Звуковые файлы (*.WAV)</translation>
-    </message>
-    <message>
-        <source>Play sound effect or audio file</source>
-        <translation>Проиграть звуковой эффект или аудио файл</translation>
-    </message>
-    <message>
-        <source>Sound Event</source>
-        <translation>Звуковое событие</translation>
-    </message>
-    <message>
-        <source>Playback Audio</source>
-        <translation>Воспроизведение аудио</translation>
     </message>
 </context>
 <context>
@@ -1459,6 +1469,16 @@ Are you sure to disable the unlock button?</source>
         <location filename="../../../src/extensions/system/qml/system/action/utils.js" line="18"/>
         <source>Logout</source>
         <translation>Выход</translation>
+    </message>
+    <message>
+        <location filename="../../../src/extensions/system/qml/system/action/utils.js" line="19"/>
+        <source>Sleep</source>
+        <translation>Сон</translation>
+    </message>
+    <message>
+        <location filename="../../../src/extensions/system/qml/system/action/utils.js" line="20"/>
+        <source>Hibernate</source>
+        <translation>Гибернация</translation>
     </message>
 </context>
 </TS>
